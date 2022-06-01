@@ -6,7 +6,8 @@ const socket = io("/")
 
 var peer = new Peer(undefined,{
     host:"https://myzoomtest.herokuapp.com/",
-    port:PORT
+    port:PORT,
+    path: "/peerjs",
 });
 console.log(peer)
 

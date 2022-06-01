@@ -70,7 +70,8 @@ app.use(express.static(__dirname + '/public'));
 let s = httpServer.listen(PORT);
 
 const peerServer = ExpressPeerServer(s, {
-  path: '/'
+  debug: true,
+  allow_discovery: true,
 });
 
-app.use('/', peerServer);
+app.use('/peerjs', peerServer);
