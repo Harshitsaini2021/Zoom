@@ -1,0 +1,55 @@
+.msgbox{
+    border:2px solid gray;
+    width: 100%;
+    height: 60vh;
+    border-radius: 12px;
+    overflow-y: scroll;
+    
+}
+
+.msg-me{
+    border: none;
+    background: #ff777777;
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin: 5px 22px 5px 2px;
+}
+
+.msg-other{
+    border: none;
+    background: #95e0ff77;
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin: 5px 2px 5px 22px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 60vw;
+    height: 2rem;
+    padding: 12px;
+    margin: 12px 0px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.btn{
+    width: 72px;
+    height: 200%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+    background: #919191;
+    color: white;
+}
+
