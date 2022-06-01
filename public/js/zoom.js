@@ -5,7 +5,7 @@ javascript:(function () {     var script =  document.createElement('script');   
 const socket = io("/")
 
 var peer = new Peer(undefined,{
-    host:"/",
+    host:"https://myzoomtest.herokuapp.com/",
     port:PORT
 });
 console.log(peer)
